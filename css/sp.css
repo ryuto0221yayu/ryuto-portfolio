@@ -1,0 +1,152 @@
+@media (min-width:0px) and (max-width:666px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    vertical-align: bottom;
+    box-sizing: border-box;
+  }
+
+  /* header==================================== */
+
+
+
+  h1 {
+
+    font-weight: normal;
+    margin: 20px 0 20px 5%;
+  }
+
+  header {
+    background: black;
+    width:100%;
+    height: 50px;
+  }
+
+  ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  a {
+    color: #ffff;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+  }
+
+  a:hover {
+    background: red;
+  }
+
+  /* main============================================== */
+
+  .top {
+    position: relative;
+  }
+
+  .bgimg {
+    position: absolute;
+    top: -32px;
+    width: 100%;
+    height: 85vh;
+    z-index: -100;
+  }
+
+  .my-pout {
+    width: 60%;
+    margin: 32px auto;
+    background-color: #ffff;
+    border-radius: 10%;
+    animation: mpo 10s infinite;
+  }
+
+  .my-pin {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+
+  .my-pin h2 {
+    animation: mpo 10s infinite;
+  }
+
+  .my-pin img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10%;
+  }
+
+  .my-img {
+    height:80vh;
+  }
+
+  /* 自己紹介======================================== */
+
+    main {
+      width: 100%;
+      padding-top: 40px;
+      background-image: url();
+      background-size: cover;
+      position: relative;
+    }
+
+    .bgi {
+      width: 100%;
+      position: absolute;
+      top:0;
+      background: cover center;
+      z-index: -1;
+    }
+
+    .my-if {
+      width:80%;
+      margin: 0 auto;
+      border-radius: 5%;
+      border: 1px solid #e6f51b;
+    }
+
+    .my-ifin {
+      line-height: 30px;
+      padding: 20px;
+      
+    }
+
+    .my-ifin h2 {
+      font-weight: normal;
+      text-align: center;
+      padding: 0 0 20px 0;
+    }
+
+
+
+  @keyframes mpo {
+    10% {
+      transform: scale(1, 1);
+    }
+
+    50% {
+      transform: scale(-1, 1);
+    }
+
+    75% {
+      transform: scale(-1, 1);
+    }
+
+  }
+
+
+
+
+
+
+}
