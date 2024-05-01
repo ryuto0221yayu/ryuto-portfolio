@@ -13,7 +13,6 @@
 
 
   h1 {
-
     font-weight: normal;
     margin: 20px 0 20px 5%;
   }
@@ -63,7 +62,7 @@
 
   .my-pout {
     width: 60%;
-    margin: 32px auto;
+    margin: 0 auto;
     background-color: #ffff;
     border-radius: 10%;
     animation: mpo 10s infinite;
@@ -87,17 +86,25 @@
   }
 
   .my-img {
-    height:80vh;
+    background-image: url(/Users/ryuto0221/Desktop/portfolio_ryuto/img/bill.jpg);
+    background-size: cover;
+    padding : 20px 0;
   }
 
   /* 自己紹介======================================== */
 
     main {
       width: 100%;
-      padding-top: 40px;
-      background-image: url();
-      background-size: cover;
+      
       position: relative;
+    }
+
+    .mn-img {
+      padding: 40px 0;
+      background-image: url(/Users/ryuto0221/Desktop/portfolio_ryuto/img/starsのコピー.jpg);
+      background-size: cover;
+      border-bottom-left-radius:24px;
+      border-bottom-right-radius:24px;
     }
 
     .bgi {
@@ -112,13 +119,15 @@
       width:80%;
       margin: 0 auto;
       border-radius: 5%;
-      border: 1px solid #e6f51b;
+      border: 2px solid #e6f51b;
+      
     }
 
     .my-ifin {
+      border-radius: 5%;
       line-height: 30px;
       padding: 20px;
-      
+      background: #fff;
     }
 
     .my-ifin h2 {
@@ -127,6 +136,66 @@
       padding: 0 0 20px 0;
     }
 
+    /* skill======================================== */
+
+    .skills {
+      width:100%;
+      padding:20px;
+    }
+
+    .skill-items {
+      width:100%;
+      border-radius: 24px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .bar {
+      width:40%;
+      height: 100px;
+      background: #627fff;
+      border-radius: 8px;
+      margin-left: 3%;
+      text-align: center;
+    }
+    .bar p {
+      height:10px;
+      padding-top:15px;
+      
+    }
+
+    .bars {
+      width:80%;
+      height:10px;
+      margin: 0 auto;
+      margin-top: 2.8rem;
+      border-radius: 5px;
+      background: #fff;
+    }
+
+    .bares {
+      width:80%;
+      height:10px;
+      margin-top: 2.8rem;
+      border-radius: 5px;
+      background: #21a00e;
+    }
+
+
+    .skill-icon {
+      width:40%;
+      margin-right: 3%;
+    }
+
+    .skill-icon img {
+      width:100%;
+    }
+
+    .js-bar {
+      width:70%;
+    }
 
 
   @keyframes mpo {
