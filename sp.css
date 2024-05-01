@@ -86,7 +86,7 @@
   }
 
   .my-img {
-    background-image: url(/Users/ryuto0221/Desktop/portfolio_ryuto/img/bill.jpg);
+    background-image: url(../img/bill.jpg);
     background-size: cover;
     padding : 20px 0;
   }
@@ -101,7 +101,7 @@
 
     .mn-img {
       padding: 40px 0;
-      background-image: url(/Users/ryuto0221/Desktop/portfolio_ryuto/img/starsのコピー.jpg);
+      background-image: url(../img/stars.jpg);
       background-size: cover;
       border-bottom-left-radius:24px;
       border-bottom-right-radius:24px;
